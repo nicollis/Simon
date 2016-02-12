@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Passion+One|Roboto+Condensed'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container text-center game-container center">
+  <div id="green" class="col-xs-6 game-button green"></div>
+  <div id="red" class="col-xs-6 game-button red"></div>
+  <div id="yellow" class="col-xs-6 game-button yellow"></div>
+  <div id="blue" class="col-xs-6 game-button blue"></div>
+  <div class="center controls">
+    <div class="row font-title">
+      <h1>Simon</h1>
+    </div>
+    <div class="row control-panel">
+      <div class="col-xs-2 col-xs-offset-10">
+        <div id="strict-light" class="strict-light"></div>
+      </div>
+    </div>
+    <div class="row control-panel">
+      <div class="col-xs-2 col-xs-offset-2">
+        <div class="row font-digital">
+          <div id="lcd" class="lcd">
+            --
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2 col-xs-offset-2">
+        <div id="start" class="control-button start"></div>
+      </div>
+      <div class="col-xs-2 col-xs-offset-2">
+        <div id="strict" class="control-button strict"></div>
+      </div>
+    </div>
+    <div class="row font-label control-panel">
+      <div class="col-xs-2 col-xs-offset-2">
+        <div class="row">
+          COUNT
+        </div>
+      </div>
+      <div class="col-xs-2 col-xs-offset-2">
+        <div class="row">
+          START
+        </div>
+      </div>
+      <div class="col-xs-2 col-xs-offset-2">
+        <div class="row">
+          STRICT
+        </div>
+      </div>
+    </div>
+    <div class="row control-panel font-label">
+      <div class="col-xs-6 col-xs-offset-4 vertical-align">
+        OFF&nbsp;
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoffswitch">
+          <label class="onoffswitch-label" for="onoffswitch">
+                <span class="onoffswitch-inner"></span>
+                <span class="onoffswitch-switch"></span>
+            </label>
+        </div>
+        &nbsp;ON
+      </div>
+    </div>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
